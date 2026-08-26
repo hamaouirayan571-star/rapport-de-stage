@@ -1,0 +1,102 @@
+body {
+    background-color: #f4f6f8;
+    font-size: 18px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- L'en-tête tout en haut avec le logo et le titre --- */
+.entete {
+    background-color: #1b2a4a;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.entete h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+/* --- Le menu de navigation --- */
+.menu {
+    background-color: #14213d;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* --- Le contenu principal --- */
+.contenu {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bloc {
+    background-color: white;
+    border: 1px solid #dde3ea;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.bloc h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #1b2a4a;
+    font-size: 26px;
+}
+
+.bloc p {
+    line-height: 1.6;
+}
+
+/* --- Les deux photos du projet personnel --- */
+.photos-projet img {
+    width: 45%;
+    height: 220px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+/* --- Le bouton --- */
+.bouton {
+    display: inline-block;
+    background-color: #2ec4b6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.bouton:hover {
+    background-color: #23a99d;
+}
+
+/* --- Le pied de page --- */
+.pied-de-page {
+    background-color: #1b2a4a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
